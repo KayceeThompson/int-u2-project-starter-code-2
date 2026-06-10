@@ -1,6 +1,28 @@
 /* The code below centers the text of all h1's on the page. */
-h1 {
-    text-align:center;
+body {
+    background-color:cornflowerblue;
+}
+
+p {
+    font-size: larger;
+}
+
+nav {
+    background-color: black;
+    padding: 15px 25px;
+    color: white;
+    list-style: none;
+    display: block;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    margin-left: 20px;
 }
 
 /* The code below centers all images on the page and gives them a width of 400px. */
@@ -20,10 +42,15 @@ h2 {
 .section-container {
     display:flex;
     justify-content:space-between;
+    background-color: white;
 }
 
 /* The code below a solid black border to section and puts space between them (the margin). */
 .section {
     border: 5px black solid;
     margin:5px;
+}
+
+.logo {
+    width: 275px;
 }
